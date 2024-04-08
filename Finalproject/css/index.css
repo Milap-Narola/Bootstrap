@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'Pacifico', cursive;
+    color: black;
+}
+
+.navbar-brand:hover {
+    color: white;
+    background-color: rgb(20, 90, 94);
+    border-radius: 10px;
+
+}
+
+.nav-item:hover {
+
+    border-radius: 50px;
+    background-color: rgb(38, 125, 255);
+    transition: 0.7s;
+}
+
+.nav-link {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.search {
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    border: 2px solid rgb(248, 26, 92);
+    font-family: 'Rubik', sans-serif;
+}
+
+.btn0 {
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(248, 26, 92);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+
+.main {
+    background-image: url(https://img.freepik.com/premium-photo/organic-food-background-copy-space-food-photography-different-fruits-vegetables-isolated-white-background-high-resolution-product_35691-28184.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+
+.main h1 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.btn1 {
+    height: 40px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background: rgb(248, 26, 92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.btn1:hover {
+    background-color: rgb(205, 35, 86);
+    transition: 0.5s;
+}
+
+.product h1 {
+    font-weight: 700;
+}
+
+.img:hover {
+    border-radius: 60px;
+    box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+    transition: 0.9s;
+}
+
+.card:hover {
+    border-radius: 50px;
+    box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+    transition: 0.5s;
+}
+
+.about h1 {
+    font-weight: 700;
+}
+
+.apple {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://img.freepik.com/premium-photo/fresh-red-apples-with-green-leaves-black-background-fruits-top-view-free-space-text_187166-553.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+
+}
+
+.apple h1 {
+    font-weight: 700;
+    font-family: 'Lobster', cursive;
+}
+
+.news {
+    background-color: black;
+    color: white;
+}
+
+.btn2 {
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+
+.news input {
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.news::placeholder {
+    color: white;
+}
+
+.news P {
+    margin: 0;
+}
+
+.fa-brands {
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right: 5px;
+}
+
+.fa:hover {
+    border-radius: 10px;
+    color: black;
+    background-color: rgb(226, 236, 251);
+    transition: 0.5s;
+}
