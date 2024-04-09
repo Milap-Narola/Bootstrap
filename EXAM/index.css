@@ -11,7 +11,7 @@
 
 
 .nav-item:hover {
-
+    color: white;
     border-radius: 50px;
     background-color: rgb(38, 125, 255);
     transition: 0.7s;
@@ -25,9 +25,7 @@
     font-weight: bold;
 }
 
-.nav-link:hover {
-    color: white;
-}
+
 
 .search {
     background-color: rgb(2, 142, 249);
@@ -54,6 +52,11 @@ i {
     width: 100%;
 }
 
+.banner p {
+    position: absolute;
+    top: 500px;
+}
+
 .search {
     background-color: white;
     width: 100%;
@@ -70,9 +73,40 @@ i {
     width: 200px;
     height: 40px;
 }
-.new{
+
+.new {
     background-color: rgb(233, 241, 247);
 }
-.about{
+
+.new i {
+    height: 40px;
+    width: 40px;
+    background-color: #b7c6e5;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 6px;
+}
+
+.medical i {
+
+    height: 40px;
+    width: 40px;
+    background-color: #EAF0FC;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 6px;
+}
+
+.checked {
+    color: orange;
+}
+
+.team2 img{
     
+    width: 200px;
+    height: 250px;
+}
+.gallery2 img{
+width: 300px;
+height: 200px;
 }

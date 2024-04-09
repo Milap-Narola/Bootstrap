@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand {
+    color: green;
+
+}
+.nav-item:hover {
+    color: rgb(25, 119, 25);
+    border-radius: 50px;
+    transition: 0.7s;
+}
+
+.nav-link {
+    color: rgb(25, 119, 25);
+    margin-left: 10px;
+text-transform: capitalize;
+}
+
+.nav-link:hover {
+    --bs-link-hover-color-rgb: 25, 135, 84;
+}
