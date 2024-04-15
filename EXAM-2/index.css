@@ -8,19 +8,39 @@
     color: green;
 
 }
-.nav-item:hover {
-    color: rgb(25, 119, 25);
-    border-radius: 50px;
-    transition: 0.7s;
+
+
+.nav-link:hover{
+    color: green;
+transition: 0.5s;    
 }
 
-.nav-link {
+
+.about h1 {
     font-weight: bold;
-    color: rgb(25, 119, 25);
-    margin-left: 10px;
-text-transform: capitalize;
+    opacity: 70%;
 }
 
-.nav-link:hover {
-    --bs-link-hover-color-rgb: 25, 135, 84;
+.about li {
+    list-style: none;
+}
+
+.main .icon-box {
+
+    width: 350;
+    height: 350px;
+}
+
+.icon-box:hover {
+    -webkit-box-shadow: 2px 2px 21px -7px rgba(54, 53, 54, 1);
+    -moz-box-shadow: 2px 2px 21px -7px rgba(54, 53, 54, 1);
+    box-shadow: 2px 2px 21px -7px rgba(54, 53, 54, 1);
+    transition: 0.6s;
+}
+
+.icon-box svg :hover {
+    background-color: rgb(0, 98, 255);
+}
+.fa-solid{
+    font-size: 30px;
 }
